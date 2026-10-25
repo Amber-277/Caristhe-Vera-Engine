@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Caristhe-Vera-Engine.vcxproj" Id="3ab9e027-f46d-47c6-b876-a8666a480f04" />
+</Solution>

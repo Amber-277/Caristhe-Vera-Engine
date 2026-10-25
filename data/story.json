@@ -1,0 +1,58 @@
+[
+  {
+    "id": "start",
+    "background": "bg_dungeon.jpg",
+    "character": "caristhe_normal.png",
+    "text": "Moonlight falls through the stained glass onto the cold stone floor.\nYou (Caristhe) stand in the dungeon of the Inquisition.",
+    "options": [
+      {
+        "text": "Follow the whisper",
+        "nextSceneID": "dungeon_01"
+      },
+      {
+        "text": "Stand still",
+        "nextSceneID": "find_scythe"
+      }
+    ]
+  },
+  {
+    "id": "dungeon_01",
+    "background": "bg_dungeon_deep.jpg",
+    "character": "caristhe_alert.png",
+    "text": "You walk deeper. The whisper grows clearer...\nA girl's voice, filled with pain.",
+    "options": [
+      {
+        "text": "Rush in",
+        "nextSceneID": "find_scythe"
+      },
+      {
+        "text": "Approach cautiously",
+        "nextSceneID": "find_scythe"
+      }
+    ]
+  },
+  {
+    "id": "find_scythe",
+    "background": "bg_iron_door.jpg",
+    "character": "nun_bloody.png",
+    "text": "A chained nun raises her head...\n'Take the scythes and accept this sin.'",
+    "options": [
+      {
+        "text": "Take the scythes",
+        "nextSceneID": "final_scene"
+      }
+    ]
+  },
+  {
+    "id": "final_scene",
+    "background": "bg_moonlight.jpg",
+    "character": "caristhe_resolute.png",
+    "text": "You hold Originale Iudex. Your heart is filled with resolve.\nType 'skill' to unleash Calix Lunae!",
+    "options": [
+      {
+        "text": "Return to start",
+        "nextSceneID": "start"
+      }
+    ]
+  }
+]
