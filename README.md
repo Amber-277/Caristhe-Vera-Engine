@@ -16,14 +16,8 @@ The initial story is a dark fantasy narrative based on my original character, **
 
 ## 🚀 How to Run
 1. Clone the repository to your local machine.
-2. Download the `json.hpp` header file from the [official repository](https://github.com/nlohmann/json/releases) and place it in the root directory. *(Required for JSON parsing)*
-3. Compile the `main.cpp` using any C++ compiler (e.g., GCC, Clang, or MSVC).
+2. The `json.hpp` header file is already included in the `include` folder. No extra download is needed.
+3. **For Visual Studio users:** Open `Caristhe-Vera-Engine.sln` and press `F5`.
+4. **For command line users:** Compile from the root directory:
    ```bash
-   g++ main.cpp -o game -std=c++17
-   4.Run the compiled executable (or press F5 in Visual Studio).
-
-Type 1 or 2 to make choices.
-
-Type status to check player attributes.
-
-Type skill to unleash the final attack (when conditions are met).
+   g++ src/main.cpp -o game -std=c++17
